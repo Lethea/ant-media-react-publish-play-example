@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Ant Media React Publish Play App
 
-In the project directory, you can run:
 
-### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# ant-media-react-publish-play-example
 
-### `yarn test`
+This project is a basic example that how you embed the ant javascript sdk to the react app.
+I made same changes on webadaptor class and preparing publish play example with react
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ant Media server installation
+---------------------------------
+Download the ant media server from [ANT MEDIA SERVER]
 
-### `yarn build`
+You can find installation guide on github [ANT GITHUB REPO]
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+INSTALLATION
+---------------------------------
+```
+git clone git@github.com:Lethea/ant-media-react-publish-play-example.git
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+In the project directory, you can run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm install`
 
-### `yarn eject`
+Change the
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+websocketURL: "wss://antmediatest:5443/WebRTCAppEE/websocket",
+```
+in publishnew, playernew and playernewauto page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+then execute
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm start`
+Publish Page
+![PublishPage](https://image.prntscr.com/image/SONAAu0FRnaiuJcVYpyqig.png)
+Play Page
+![PlayPage](https://image.prntscr.com/image/zxLxDCQPSLyzS27SnUfxHQ.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+Features
+-------------
+- [x] Play / Publish Implementation
+- [x] PeerConnection / Icecandidate etc webrtc stuff implemented
+- [x] Publish Stream Button 
+- [x] Play Stream Button 
+- [ ] Selecting Camera / Microphone
+- [ ] Token Play / Publish
+- [ ] External Player Link For Hls Playback
+- [ ] Typo Control
+- [ ] Test
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contact
+------------
+````
+Mail : emre.karatasoglu@hotmail.com
+Phone / Whatsapp / Telegram : +90 532 346 67 79
+Donate :   3AjEhr96KU1XsrE9rwUdpuKHaqz34WRpLb ( BTC )
+           0x9b55391bc7c8702f4ac2507c8258b2fdbd6a7347 ( USDT ) 
+           0x9b55391bc7c8702f4ac2507c8258b2fdbd6a7347 ( ETH ) 
+````
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[ANT GITHUB REPO]:https://github.com/ant-media/Ant-Media-Server
+[ANT MEDIA SERVER]:https://antmedia.io/
